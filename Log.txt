@@ -1,0 +1,69 @@
+2021-07-16 15:49:41,648 - ==========================================
+2021-07-16 15:49:41,648 - Platform (OS): Windows
+2021-07-16 15:49:41,649 - Python Version: 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)]
+2021-07-16 15:49:41,649 - root_dir: D:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\c01
+2021-07-16 15:49:41,649 - dir_res: D:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\c01\Res_2021-07-16_15-49-41
+2021-07-16 15:49:41,654 - start_model_file: None
+2021-07-16 15:49:41,654 - freeze_model: False
+2021-07-16 15:49:41,654 - learning_rate: 0.0001
+2021-07-16 15:49:41,654 - num_epochs: 10
+2021-07-16 15:49:41,654 - batch_size: 16
+2021-07-16 15:49:41,655 - image_size: 224
+2021-07-16 15:49:41,656 - regression: False
+2021-07-16 15:49:41,656 - image_size_2: (224, 224)
+2021-07-16 15:49:41,656 - input_shape: [224, 224, 3]
+2021-07-16 15:49:41,656 - random_seed: 42
+2021-07-16 15:49:41,657 - ===== DATA =====
+2021-07-16 15:49:41,657 - img_dirbase: d:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\data\d01
+2021-07-16 15:49:41,657 - img_subdir_train: train
+2021-07-16 15:49:41,657 - img_subdir_test: test
+2021-07-16 15:49:42,032 - class_names: ['cat', 'dog']
+2021-07-16 15:49:42,032 - num_classes: 2
+2021-07-16 15:49:42,033 - Train images #: 4192
+2021-07-16 15:49:42,034 - Test images #: 925
+2021-07-16 15:49:42,055 - TrainClassesCount: {'cat': 2092, 'dog': 2100}
+2021-07-16 15:49:42,056 - TestClassesCount: {'cat': 431, 'dog': 494}
+2021-07-16 15:49:42,056 - Check for  equal images in test and training... SKIPPED ...
+2021-07-16 15:49:42,056 - ==========
+2021-07-16 15:49:45,641 - model.base_name: resnet50
+2021-07-16 15:49:45,642 - model.model.name: resnet50_full_ils1024
+2021-07-16 15:49:45,642 - model.frozen: False
+2021-07-16 15:49:45,642 - model.loaded: False
+2021-07-16 15:49:45,654 - None
+2021-07-16 15:58:55,165 - 
+
+2021-07-16 15:59:00,957 - validation_dataset acc wird berechnet vom Modell mit minimalem loss!
+2021-07-16 15:59:00,957 - validation_dataset acc: 0.9805405139923096
+
+2021-07-16 15:59:16,081 - train_dataset acc: 0.9875954389572144
+
+2021-07-16 15:59:16,081 - #####################################
+2021-07-16 15:59:16,081 - ===== REPORT =====
+2021-07-16 15:59:16,082 - model_best_loss: D:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\c01\Res_2021-07-16_15-49-41\model_best_loss.h5
+2021-07-16 15:59:16,082 - (model_best_acc: D:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\c01\Res_2021-07-16_15-49-41\model_best_acc.h5)
+2021-07-16 15:59:17,771 - None
+2021-07-16 15:59:17,771 - img_dirbase: d:\Di\Z_InfosTestTry\Z_Programmier\Python\P37_TensorFlow2_Samples\Classification\data\d01
+2021-07-16 15:59:17,771 - img_subdir_test: test
+2021-07-16 15:59:21,384 - labels: {'cat': 0, 'dog': 1}
+2021-07-16 15:59:21,701 -               precision    recall  f1-score   support
+2021-07-16 15:59:21,701 - 
+2021-07-16 15:59:21,701 -            0       0.97      0.98      0.98       431
+2021-07-16 15:59:21,702 -            1       0.99      0.98      0.98       494
+2021-07-16 15:59:21,702 - 
+2021-07-16 15:59:21,702 -     accuracy                           0.98       925
+2021-07-16 15:59:21,702 -    macro avg       0.98      0.98      0.98       925
+2021-07-16 15:59:21,702 - weighted avg       0.98      0.98      0.98       925
+2021-07-16 15:59:21,703 - 
+2021-07-16 15:59:21,703 -     precision = TP / (TP + FP)  Anteil der korrekt klassifizierten dieser Klasse von allen dieser Klasse zugewiesenen Faellen
+2021-07-16 15:59:21,703 -     recall (Sensitivity) = TP / (TP + FN)  Anteil dieser Klasse, der  korrekt klassifiziert wurde
+2021-07-16 15:59:21,703 -     f1-score = 2*(Recall * Precision) / (Recall + Precision)  aehnlich accuracy, insbes. "uneven class distribution", unbalanced samples
+2021-07-16 15:59:21,703 - 
+2021-07-16 15:59:21,730 - Predicted    0    1  All
+2021-07-16 15:59:21,730 - True                    
+2021-07-16 15:59:21,730 - 0          424    7  431
+2021-07-16 15:59:21,731 - 1           11  483  494
+2021-07-16 15:59:21,731 - All        435  490  925
+2021-07-16 15:59:21,731 - acc = 98.05 % (98.05405405405405)
+2021-07-16 15:59:21,735 - Correct classified #: 907 / 925 = 98.1 %
+2021-07-16 15:59:21,740 - False classified #: 18 / 925 = 1.9 %
+2021-07-16 15:59:21,742 - acc: 98.05405405405405
